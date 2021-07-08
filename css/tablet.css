@@ -1,0 +1,47 @@
+header nav {
+    margin: auto;
+}
+body main .intro-container .intro-text-container a {
+    margin-left: 25%;
+}
+body main .why-us .general-service-container {
+    
+    grid-template-columns: 1fr;
+}
+body main .why-us .general-service-container .service-container {
+    margin: 10px auto;
+}
+body main .about_us-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+body main .about_us-container .left-au-container {
+    grid-row: 1;
+}
+body main .about_us-container .right-au-container {
+    grid-row: 2;
+}
+main .why-us .domicilio-container {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+body main .why-us .domicilio-container .general-domicilio-container {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+body main .why-us .domicilio-container .general-domicilio-container .left-dom-container {
+    width: 100%;
+    grid-row: 1;
+    border-radius: 10px 10px 0 0;
+}
+body main .why-us .domicilio-container .general-domicilio-container .right-dom-container {
+    width: 100%;
+}
+body main .why-us .domicilio-container .general-domicilio-container .right-dom-container h3{
+    display: flex;
+    width: 200px;
+}
+footer a {
+    margin-left: 30%;
+}

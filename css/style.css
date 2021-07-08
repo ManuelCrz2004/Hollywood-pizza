@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+    background-color: #2c2b2b;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #800000;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+header nav a {
+    padding: 10px 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fffaeb;
+}
+header nav a:hover {
+    
+    color: #470000;
+    background-color: #fffaeb;
+    border-radius: 5px;
+    transition-duration: 0.65s;
+}
+main .intro-container {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-image: url("../assets/Fondo-intro.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+main .intro-container .intro-text-container {
+    margin: 0 auto;
+    width: 60%;
+    color: #fffaeb;
+}
+main .intro-container .intro-text-container h1 {
+    padding-top: 30%;
+    text-align: center;
+    font-size: 50px;
+}
+main .intro-container .intro-text-container p {
+    padding: 35px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+main .intro-container .intro-text-container a {
+    margin-left: 45%;
+    margin-top: 30px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fffaeb;
+    background-color: #800000;
+}
+main .intro-container .intro-text-container a:hover {
+    transition-duration: 0.65s;
+    background-color: #470000;
+}
+main .about_us-container {
+    padding: 35px 15px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #800000;
+    color: #fffaeb;
+}
+main .about_us-container .left-au-container {
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+main .about_us-container .left-au-container img {
+    margin: 10px auto;
+    width: 50%;
+}
+main .about_us-container .right-au-container {
+    width: 100%;
+    margin: 10px;
+}
+main .about_us-container .right-au-container h2 {
+    margin: auto;
+    padding: 20px 30px;
+    width: 220px;
+    font-size: 30px;
+}
+main .about_us-container .right-au-container p {
+    margin-bottom: 50px;
+    padding: 0 30px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+main .about_us-container .right-au-container a {
+    margin-left: 30px;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #470000;
+    color: #fffaeb;
+    border-radius: 5px;
+}
+main .about_us-container .right-au-container a:hover {
+    background-color: #fffaeb;
+    color: #800000;
+    transition-duration: 0.65s;
+}
+main .why-us {
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+}
+main .why-us .why-text-container {
+    margin-bottom: 100px;
+    color: #fffaeb;
+}
+main .why-us .why-text-container h2 {
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+main .why-us .why-text-container p {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+}
+main .why-us .general-service-container {
+    margin: auto;
+    margin-bottom: 50px;
+    display: grid;
+    width: 95%;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+main .why-us .general-service-container .service-container {
+    margin-top: 20px;
+    padding: 15px 0;
+    width: 95%;
+    background-color: #fffaeb;
+    border-radius: 5px;
+}
+main .why-us .general-service-container .service-container img {
+    padding-left: 42%;
+    width: 50px;
+}
+main .why-us .general-service-container .service-container h3 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+main .why-us .general-service-container .service-container p {
+    margin: auto;
+    padding-bottom: 15px;
+    width: 95%;
+    text-align: center;
+}
+main .why-us .domicilio-container {
+    padding: 25px;
+    padding-bottom: 80px;
+    background-color: #800000;
+    color: #fffaeb;
+}
+main .why-us .domicilio-container h2 {
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+}
+main .why-us .domicilio-container p {
+    padding-bottom: 75px;
+    text-align: center;
+    font-size: 20px;
+}
+main .why-us .domicilio-container .general-domicilio-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+}
+main .why-us .domicilio-container .general-domicilio-container div {
+    padding-top: 20px;
+}
+main .why-us .domicilio-container .general-domicilio-container .left-dom-container {
+    margin: 0 auto;
+    width: 95%;
+    background: #2c2b2b;
+    border-radius: 10px 0 0 10px;
+}
+main .why-us .domicilio-container .general-domicilio-container .left-dom-container h3 {
+    padding: 15px 20px;
+    font-size: 25px;
+}
+main .why-us .domicilio-container .general-domicilio-container .left-dom-container p {
+    padding: 0;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    text-align: start;
+}
+main .why-us .domicilio-container .general-domicilio-container .left-dom-container a {
+    margin-left: 40px;
+    color: #fffaeb;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+main .why-us .domicilio-container .general-domicilio-container .left-dom-container a:hover {
+    border-bottom: 1px solid #fffaeb;
+}
+main .why-us .domicilio-container .general-domicilio-container .right-dom-container {
+    margin: auto;
+    width: 90%;
+}
+main .why-us .domicilio-container .general-domicilio-container .right-dom-container h3 {
+    padding: 15px 20px;
+    font-size: 25px;
+}
+main .why-us .domicilio-container .general-domicilio-container .right-dom-container iframe {
+    padding-left: 20px;
+}
+main .why-us .domicilio-container .general-domicilio-container .right-dom-container p {
+    padding: 0;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    text-align: start;
+}
+footer {
+    height: 120px;
+    margin-bottom: 15px;
+}
+footer h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: #fffaeb;
+}
+footer a {
+    margin-left: 45%;
+    margin-top: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fffaeb;
+    background-color: #800000;
+}
+footer a:hover {
+    transition-duration: 0.65s;
+    background-color: #470000;
+}
