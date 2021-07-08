@@ -147,12 +147,12 @@ main .menu-container .text-menu-container .sabores-pizza-container .pizza-contai
     margin: 0px 20px;
 }
 main .menu-container .text-menu-container .sabores-pizza-container .pizza-container .left-pizza-container h3 {
-    color: rgba(255,233,82,0.47);
+    color: #ffd400;
     margin-left: 20px;
     width: 60%;
     text-align: center;
     font-size: 25px;
-    border-bottom: 1px solid rgba(255,233,82,0.47);
+    border-bottom: 1px solid #ffd400;
 }
 main .menu-container .text-menu-container .sabores-pizza-container .pizza-container .left-pizza-container p {
     margin-bottom: 40px;
@@ -168,12 +168,12 @@ main .menu-container .text-menu-container .sabores-pizza-container .pizza-contai
     margin: 0px 20px;
 }
 main .menu-container .text-menu-container .sabores-pizza-container .pizza-container .right-pizza-container h3 {
-    color: rgba(255,233,82,0.47);
+    color: #ffd400;
     margin-left: 20px;
     width: 80%;
     text-align: center;
     font-size: 25px;
-    border-bottom: 1px solid rgba(255,233,82,0.47);
+    border-bottom: 1px solid #ffd400;
 }
 main .menu-container .text-menu-container .sabores-pizza-container .pizza-container .right-pizza-container p {
     margin-bottom: 30px;
