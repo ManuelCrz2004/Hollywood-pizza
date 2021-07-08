@@ -1,0 +1,33 @@
+main .menu-container .text-menu-container h2 {
+    width: auto;
+}
+main .menu-container .text-menu-container .entradas-container .post-entrada-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+}
+main .menu-container .text-menu-container .entradas-container .post-entrada-container .post-container{
+    margin-top: 20px;
+}
+main .menu-container .text-menu-container .pizza-size-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 4fr;
+}
+main .menu-container .text-menu-container .pizza-size-container div {
+    margin-top: 20px;
+}
+main .menu-container .text-menu-container .sabores-pizza-container h2 {
+    padding: 0;
+    padding-bottom: 50px;
+    width: 100%;
+}
+main .menu-container .text-menu-container .sabores-pizza-container .pizza-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr;
+}
+main .menu-container .text-menu-container .sabores-pizza-container .pizza-container .left-pizza-container h3 {
+    margin-bottom: 80px;
+    width: 80%;
+}
+main .menu-container .text-menu-container .sabores-pizza-container .pizza-container .right-pizza-container h3 {
+    width: 80%;
+}
